@@ -1,0 +1,1 @@
+import{u as e}from"./vue-i18n-BaeyTUu8.js";import{rn as t}from"./index-BW9XPns6.js";function n(){let n=t(),r=e(()=>n.value===`reduce`);function i(e){return!r.value&&e}return{still:r,from:i}}export{n as t};

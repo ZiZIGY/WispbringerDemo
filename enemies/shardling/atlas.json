@@ -1,0 +1,166 @@
+{
+  "frames": {
+    "sprite_00_00": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceFrame": {
+        "x": 54,
+        "y": 236,
+        "w": 372,
+        "h": 438
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 372,
+        "h": 438
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "duration": 125,
+      "col": 0,
+      "row": 0
+    },
+    "sprite_00_01": {
+      "frame": {
+        "x": 374,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceFrame": {
+        "x": 507,
+        "y": 247,
+        "w": 372,
+        "h": 438
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 372,
+        "h": 438
+      },
+      "pivot": {
+        "x": -0.02956989247311828,
+        "y": -0.02511415525114155
+      },
+      "duration": 125,
+      "col": 1,
+      "row": 0
+    },
+    "sprite_00_02": {
+      "frame": {
+        "x": 748,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceFrame": {
+        "x": 914,
+        "y": 252,
+        "w": 372,
+        "h": 438
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 372,
+        "h": 438
+      },
+      "pivot": {
+        "x": 0.06451612903225806,
+        "y": -0.0365296803652968
+      },
+      "duration": 125,
+      "col": 2,
+      "row": 0
+    },
+    "sprite_00_03": {
+      "frame": {
+        "x": 1122,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceFrame": {
+        "x": 1356,
+        "y": 255,
+        "w": 372,
+        "h": 438
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 372,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 372,
+        "h": 438
+      },
+      "pivot": {
+        "x": 0.06451612903225806,
+        "y": -0.04337899543378995
+      },
+      "duration": 125,
+      "col": 3,
+      "row": 0
+    }
+  },
+  "animations": {
+    "idle": ["sprite_00_00", "sprite_00_01", "sprite_00_02", "sprite_00_03"]
+  },
+  "meta": {
+    "app": "SpriteCutter",
+    "image": "shardling.png",
+    "sourceImage": {
+      "w": 1774,
+      "h": 887
+    },
+    "size": {
+      "w": 1494,
+      "h": 438
+    },
+    "scale": 1,
+    "format": "PNG",
+    "grid": {
+      "cellWidth": 372,
+      "cellHeight": 438,
+      "gap": 2
+    },
+    "frameTags": [
+      {
+        "name": "idle",
+        "from": 0,
+        "to": 3,
+        "direction": "forward"
+      }
+    ]
+  }
+}

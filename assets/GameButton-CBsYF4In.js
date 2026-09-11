@@ -1,0 +1,1 @@
+import{L as e,P as t,Y as n,f as r,mt as i,y as a}from"./vue-i18n-BaeyTUu8.js";import{C as o,St as s}from"./index-BW9XPns6.js";var c=a({__name:`GameButton`,setup(a){function c(){s.play(`uiClick`)}return(a,s)=>(t(),r(i(o),{onPointerdown:c},{default:n(()=>[e(a.$slots,`default`)]),_:3}))}});export{c as t};

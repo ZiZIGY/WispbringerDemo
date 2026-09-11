@@ -1,0 +1,52 @@
+<!doctype html>
+<html
+  lang="en"
+  data-theme="dark"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/WispbringerDemo/favicon.svg"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!--
+      Шрифты грузятся ОТСЮДА, а не из CSS.
+
+      Раньше стоял `@import` в самом style.css, и это выстраивало загрузку в
+      очередь: браузер сперва качал наш CSS, только потом узнавал про шрифты и
+      шёл за ними — два круга ожидания вместо одного. Из разметки запрос уходит
+      сразу, вместе с остальным первым кадром.
+
+      `preconnect` к gstatic — не суеверие: файлы шрифтов лежат на ДРУГОМ хосте,
+      чем таблица стилей, и рукопожатие с ним иначе начнётся только после того,
+      как таблица разобрана.
+    -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300..700&family=JetBrains+Mono:wght@400..700&family=Tektur:wght@400..900&display=swap"
+    />
+    <title>wispbringer</title>
+    <script type="module" crossorigin src="/WispbringerDemo/assets/index-BW9XPns6.js"></script>
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/vue-i18n-BaeyTUu8.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/textures-DgoMVL-7.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/i18n-BcFYiikR.js">
+    <link rel="stylesheet" crossorigin href="/WispbringerDemo/assets/index-CL33ff0Y.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

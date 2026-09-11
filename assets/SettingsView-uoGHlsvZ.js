@@ -1,0 +1,1 @@
+import{P as e,f as t,y as n}from"./vue-i18n-BaeyTUu8.js";import{t as r}from"./QualitySettings-D096PTTx.js";var i=n({__name:`SettingsView`,setup(n){return(n,i)=>(e(),t(r))}});export{i as default};
