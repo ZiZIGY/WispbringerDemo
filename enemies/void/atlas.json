@@ -1,0 +1,58 @@
+{
+  "frames": {
+    "sprite_00_00": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1888,
+        "h": 800
+      },
+      "sourceFrame": {
+        "x": 6,
+        "y": 12,
+        "w": 1888,
+        "h": 800
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1888,
+        "h": 800
+      },
+      "sourceSize": {
+        "w": 1888,
+        "h": 800
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "duration": 100,
+      "col": 0,
+      "row": 0
+    }
+  },
+  "animations": {},
+  "meta": {
+    "app": "SpriteCutter",
+    "image": "2736c2e7-ed8b-4a3f-896a-486776e1610c.png",
+    "sourceImage": {
+      "w": 1904,
+      "h": 826
+    },
+    "size": {
+      "w": 1888,
+      "h": 800
+    },
+    "scale": 1,
+    "format": "PNG",
+    "grid": {
+      "cellWidth": 1888,
+      "cellHeight": 800,
+      "gap": 2
+    },
+    "frameTags": []
+  }
+}

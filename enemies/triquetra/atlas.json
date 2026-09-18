@@ -1,0 +1,137 @@
+{
+  "frames": {
+    "sprite_00_00": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 491,
+        "h": 578
+      },
+      "sourceFrame": {
+        "x": 601,
+        "y": 20,
+        "w": 491,
+        "h": 578
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 491,
+        "h": 578
+      },
+      "sourceSize": {
+        "w": 491,
+        "h": 578
+      },
+      "pivot": {
+        "x": -0.07739307535641547,
+        "y": 0.006920415224913495
+      },
+      "duration": 100,
+      "col": 0,
+      "row": 0
+    },
+    "sprite_00_01": {
+      "frame": {
+        "x": 493,
+        "y": 0,
+        "w": 491,
+        "h": 578
+      },
+      "sourceFrame": {
+        "x": 1159,
+        "y": 38,
+        "w": 491,
+        "h": 578
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 491,
+        "h": 578
+      },
+      "sourceSize": {
+        "w": 491,
+        "h": 578
+      },
+      "pivot": {
+        "x": -0.07535641547861507,
+        "y": -0.02422145328719723
+      },
+      "duration": 100,
+      "col": 1,
+      "row": 0
+    },
+    "sprite_00_02": {
+      "frame": {
+        "x": 986,
+        "y": 0,
+        "w": 491,
+        "h": 578
+      },
+      "sourceFrame": {
+        "x": 1682,
+        "y": 28,
+        "w": 491,
+        "h": 578
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 491,
+        "h": 578
+      },
+      "sourceSize": {
+        "w": 491,
+        "h": 578
+      },
+      "pivot": {
+        "x": -0.002036659877800407,
+        "y": -0.006920415224913495
+      },
+      "duration": 100,
+      "col": 2,
+      "row": 0
+    }
+  },
+  "animations": {
+    "idle": [
+      "sprite_00_00",
+      "sprite_00_01",
+      "sprite_00_02"
+    ]
+  },
+  "meta": {
+    "app": "SpriteCutter",
+    "image": "2249a376-c496-4dd2-96a8-2ae99962ee98.png",
+    "sourceImage": {
+      "w": 2172,
+      "h": 724
+    },
+    "size": {
+      "w": 1477,
+      "h": 578
+    },
+    "scale": 1,
+    "format": "PNG",
+    "grid": {
+      "cellWidth": 491,
+      "cellHeight": 578,
+      "gap": 2
+    },
+    "frameTags": [
+      {
+        "name": "idle",
+        "from": 0,
+        "to": 2,
+        "direction": "forward"
+      }
+    ]
+  }
+}

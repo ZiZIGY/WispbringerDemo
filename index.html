@@ -1,0 +1,55 @@
+<!doctype html>
+<html
+  lang="en"
+  data-theme="dark"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/WispbringerDemo/favicon.svg"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!--
+      Шрифты грузятся ОТСЮДА, а не из CSS.
+
+      Раньше стоял `@import` в самом style.css, и это выстраивало загрузку в
+      очередь: браузер сперва качал наш CSS, только потом узнавал про шрифты и
+      шёл за ними — два круга ожидания вместо одного. Из разметки запрос уходит
+      сразу, вместе с остальным первым кадром.
+
+      `preconnect` к gstatic — не суеверие: файлы шрифтов лежат на ДРУГОМ хосте,
+      чем таблица стилей, и рукопожатие с ним иначе начнётся только после того,
+      как таблица разобрана.
+    -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300..700&family=JetBrains+Mono:wght@400..700&family=Tektur:wght@400..900&display=swap"
+    />
+    <title>wispbringer</title>
+    <script type="module" crossorigin src="/WispbringerDemo/assets/index-C6ceWlem.js"></script>
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/vue-i18n-BaeyTUu8.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/bismuth-BuW-ODlZ.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/settings-V8Pk9DDF.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/input-CDB6F6u-.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/Talents-CTISz3iM.js">
+    <link rel="modulepreload" crossorigin href="/WispbringerDemo/assets/AudioManager-Df2hUZ8G.js">
+    <link rel="stylesheet" crossorigin href="/WispbringerDemo/assets/index-CjLgfi2L.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
