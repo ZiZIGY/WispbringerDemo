@@ -1,0 +1,1 @@
+function e(e){return`#${e.toString(16).padStart(6,`0`)}`}function t(e){let t=Math.max(0,Math.floor(e)),n=Math.floor(t/60);return`${String(n).padStart(2,`0`)}:${String(t%60).padStart(2,`0`)}`}export{e as n,t};

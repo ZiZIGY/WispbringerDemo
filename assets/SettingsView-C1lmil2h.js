@@ -1,0 +1,1 @@
+import{F as e,f as t,y as n}from"./vue-i18n-BxBuArzj.js";import{t as r}from"./QualitySettings-CNh79pdF.js";var i=n({__name:`SettingsView`,setup(n){return(n,i)=>(e(),t(r,{class:`min-h-0 flex-1`}))}});export{i as default};

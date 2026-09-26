@@ -1,0 +1,1 @@
+import{F as e,R as t,X as n,f as r,ht as i,y as a}from"./vue-i18n-BxBuArzj.js";import{S as o,i as s}from"./bismuth-BSRLIPjS.js";var c=a({__name:`GameButton`,setup(a){function c(){o.play(`uiClick`)}return(a,o)=>(e(),r(i(s),{onPointerdown:c},{default:n(()=>[t(a.$slots,`default`)]),_:3}))}});export{c as t};
