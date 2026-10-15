@@ -1,0 +1,58 @@
+{
+  "frames": {
+    "sprite_00_00": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 463,
+        "h": 863
+      },
+      "sourceFrame": {
+        "x": 10,
+        "y": 76,
+        "w": 463,
+        "h": 863
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 463,
+        "h": 863
+      },
+      "sourceSize": {
+        "w": 463,
+        "h": 863
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "duration": 100,
+      "col": 0,
+      "row": 0
+    }
+  },
+  "animations": {},
+  "meta": {
+    "app": "SpriteCutter",
+    "image": "spritesheet (1).png",
+    "sourceImage": {
+      "w": 626,
+      "h": 948
+    },
+    "size": {
+      "w": 463,
+      "h": 863
+    },
+    "scale": 1,
+    "format": "PNG",
+    "grid": {
+      "cellWidth": 463,
+      "cellHeight": 863,
+      "gap": 2
+    },
+    "frameTags": []
+  }
+}

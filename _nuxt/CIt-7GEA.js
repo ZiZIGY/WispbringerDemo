@@ -1,0 +1,1 @@
+import{k as e,mt as t,v as n}from"./B8D2lM98.js";import{t as r}from"./B7psYjrY.js";import{t as i}from"./C2jhMsi7.js";var a=e({__name:`collection`,setup(e){return i({layout:`menu`,ownScroll:!0}),(e,i)=>{let a=r;return t(),n(a)}}});export{a as default};

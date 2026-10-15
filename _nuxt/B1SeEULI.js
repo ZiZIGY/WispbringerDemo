@@ -1,0 +1,1 @@
+import{g as e}from"./B8D2lM98.js";import{d as t}from"#entry";function n(){let n=t(),r=e(()=>n.value===`reduce`);function i(e){return!r.value&&e}return{still:r,from:i}}export{n as t};

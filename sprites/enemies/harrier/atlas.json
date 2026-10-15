@@ -1,0 +1,171 @@
+{
+  "frames": {
+    "sprite_00_00": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceFrame": {
+        "x": 62,
+        "y": 171,
+        "w": 386,
+        "h": 386
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceSize": {
+        "w": 386,
+        "h": 386
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "duration": 100,
+      "col": 0,
+      "row": 0
+    },
+    "sprite_00_01": {
+      "frame": {
+        "x": 388,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceFrame": {
+        "x": 626,
+        "y": 174,
+        "w": 386,
+        "h": 386
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceSize": {
+        "w": 386,
+        "h": 386
+      },
+      "pivot": {
+        "x": -0.007772020725388601,
+        "y": -0.007772020725388601
+      },
+      "duration": 100,
+      "col": 1,
+      "row": 0
+    },
+    "sprite_00_02": {
+      "frame": {
+        "x": 776,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceFrame": {
+        "x": 1187,
+        "y": 173,
+        "w": 386,
+        "h": 386
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceSize": {
+        "w": 386,
+        "h": 386
+      },
+      "pivot": {
+        "x": -0.007772020725388601,
+        "y": -0.0051813471502590676
+      },
+      "duration": 100,
+      "col": 2,
+      "row": 0
+    },
+    "sprite_00_03": {
+      "frame": {
+        "x": 1164,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceFrame": {
+        "x": 1745,
+        "y": 171,
+        "w": 386,
+        "h": 386
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 386,
+        "h": 386
+      },
+      "sourceSize": {
+        "w": 386,
+        "h": 386
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "duration": 100,
+      "col": 3,
+      "row": 0
+    }
+  },
+  "animations": {
+    "idle": [
+      "sprite_00_00",
+      "sprite_00_01",
+      "sprite_00_02",
+      "sprite_00_03"
+    ]
+  },
+  "meta": {
+    "app": "SpriteCutter",
+    "image": "da1ff178-c096-4d5e-974b-8a24b1ba91a4.png",
+    "sourceImage": {
+      "w": 2172,
+      "h": 724
+    },
+    "size": {
+      "w": 1550,
+      "h": 386
+    },
+    "scale": 1,
+    "format": "PNG",
+    "grid": {
+      "cellWidth": 386,
+      "cellHeight": 386,
+      "gap": 2
+    },
+    "frameTags": [
+      {
+        "name": "idle",
+        "from": 0,
+        "to": 3,
+        "direction": "forward"
+      }
+    ]
+  }
+}

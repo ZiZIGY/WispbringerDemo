@@ -1,0 +1,1 @@
+import{g as e,vn as t}from"./B8D2lM98.js";import{mr as n}from"./B2T3i7Dp.js";var r=n(`input`,()=>{let n=t(null),r=e(()=>n.value!==null);function i(){let e=Symbol(`capture`);return n.value=e,()=>{n.value===e&&(n.value=null)}}return{capture:i,capturing:r}});export{r as t};
